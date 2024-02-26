@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.22)
 
 project(test_proj)
 
-set(SOURCE_EXE src/main.c)
+set(SOURCE_EXE src/main.cpp)
 
 file(GLOB MY_SOURCES "${CMAKE_CURRENT_LIST_DIR}/src/*.c")
 

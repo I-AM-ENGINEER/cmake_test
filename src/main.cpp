@@ -1,3 +1,4 @@
+#include <iostream>
 #include <stdio.h>
 #include "f.h"
 #include "lwrb/lwrb.h"
@@ -5,7 +6,8 @@
 
 int main( void ){
     int val = 0;
-    printf("%d\t%f\r\n", f(), g());
+    //printf("%d\t%f\r\n", f(), g());
+    std::cout << f() << std::endl;
     return 0;
 }
 
