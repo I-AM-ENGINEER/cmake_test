@@ -6,6 +6,7 @@
 
 int main( void ){
     int val = 0;
+    //
     //printf("%d\t%f\r\n", f(), g());
     std::cout << f() << std::endl;
     return 0;
