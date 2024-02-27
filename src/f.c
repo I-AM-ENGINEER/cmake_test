@@ -1,5 +1,5 @@
 #include "f.h"
 
 int f(void){
-    return 666;/////
+    return 666;///
 }
